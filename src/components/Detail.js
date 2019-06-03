@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 class Detail extends React.Component {
     render() {
         return (
-            <div>
+            <div className="jumbotron">
                 <h1>Detail</h1>
                 <h3>{this.props.local_detail}</h3>
             </div>

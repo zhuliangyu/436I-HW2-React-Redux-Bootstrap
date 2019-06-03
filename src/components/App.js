@@ -1,6 +1,6 @@
 import React from 'react';
-// import './App.css';
-import Button from './Button.js';
+import '../App.css';
+// import Button from './Button.js';
 import List from './List.js';
 import Form from "./Form";
 import Detail from "./Detail";
@@ -12,6 +12,8 @@ function App() {
             {/*<Button/>*/}
 
             <Form/>
+
+
 
             <List/>
 

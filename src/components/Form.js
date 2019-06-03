@@ -24,7 +24,7 @@ class Form extends React.Component {
 
     render() {
         return (<div>
-                <h1>It is a form.</h1>
+                <h1 className="alert alert-primary">It is a form.</h1>
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         message:
